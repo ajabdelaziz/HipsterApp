@@ -71,7 +71,7 @@ server.on('connection', function(client){
     	if(splitInput[1] === "cheese"){
         var newRSVP = [];
         JSON.stringify(newRSVP);
-        fs.writeFileSync("./rsvp.json", 'utf8');
+        fs.writeFileSync("./rsvp.json", newRSVP);
         client.write("You have cleared all RSVP's");
     	}else{ client.write("wrong password");
    		}client.end();
