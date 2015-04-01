@@ -31,7 +31,7 @@ List
 ````
 * Certain Users can access admin commands
 ```bash
-admin commands password
+adminCommands password
 ````
 *Admin can see help commands
 ```bash
